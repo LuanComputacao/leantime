@@ -1,39 +1,24 @@
 <?php
 
 
-namespace Acceptance;
+namespace Tests\Acceptance;
 
-use leantime\core\config;
-use leantime\domain\repositories\install;
 use Tests\Support\AcceptanceTester;
+use Codeception\Attribute\Depends;
 
-class InstallTest
+class InstallCest
 {
-    private string $randpomDBName;
     public function _before(AcceptanceTester $I)
-    {
-
-        $install = new install();
-        $this->randpomDBName = 'leantime_' . rand(100000, 999999);
-        $install->createDatabase($this->randpomDBName);
-
-        $config = \leantime\core\environment::getInstance();
-        $config->dbDatabase =  $this->randpomDBName;
-
-    }
-
-    // tests
-    public function tryToTest(AcceptanceTester $I)
     {
     }
 
     public function installPageWorks(AcceptanceTester $I)
     {
         $I->amOnPage('/install');
-
         $I->see('Install');
     }
 
+    #[Depends('installPageWorks')]
     public function createDBSuccessfully(AcceptanceTester $I)
     {
         $I->amOnPage('/install');
