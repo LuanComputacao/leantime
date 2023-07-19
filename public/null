@@ -25265,3 +25265,29 @@ Stack trace:
 [19-Jul-2023 13:28:38 America/Los_Angeles] PHP   7. leantime\domain\controllers\projects->get($params = ['act' => 'api.projects', 'projectAvatar' => '3']) /var/www/html/app/core/class.controller.php:61
 [19-Jul-2023 13:28:38 America/Los_Angeles] PHP   8. leantime\core\fileupload->displayImageFile($imageName = 'avatar', $fullPath = '/var/www/html/cache/avatars/e6c1782e916a8c7ee02137fde57114c3.png') /var/www/html/app/domain/api/controllers/class.projects.php:49
 [19-Jul-2023 13:28:38 America/Los_Angeles] PHP   9. header($header = 'Content-disposition: inline; filename="avatar";') /var/www/html/app/core/class.fileupload.php:359
+[19-Jul-2023 13:38:15 America/Los_Angeles] cron start
+[19-Jul-2023 13:38:15 America/Los_Angeles] cron end
+[19-Jul-2023 14:08:14 America/Los_Angeles] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/html/app/core/class.db.php:74
+Stack trace:
+#0 /var/www/html/app/core/class.db.php(74): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /var/www/html/app/core/class.db.php(99): leantime\core\db->__construct()
+#2 /var/www/html/app/domain/setting/repositories/class.setting.php(25): leantime\core\db::getInstance()
+#3 /var/www/html/app/core/class.language.php(76): leantime\domain\repositories\setting->__construct()
+#4 /var/www/html/app/core/class.language.php(162): leantime\core\language->__construct()
+#5 /var/www/html/app/domain/auth/services/class.auth.php(142): leantime\core\language::getInstance()
+#6 /var/www/html/app/domain/auth/services/class.auth.php(154): leantime\domain\services\auth->__construct('908910f6169c61f...')
+#7 /var/www/html/app/core/class.application.php(46): leantime\domain\services\auth::getInstance('908910f6169c61f...')
+#8 /var/www/html/public/index.php(24): leantime\core\application->__construct(Object(leantime\core\IncomingRequest))
+#9 {main}
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP Stack trace:
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[19-Jul-2023 14:10:00 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
