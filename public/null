@@ -25291,3 +25291,387 @@ Stack trace:
 [19-Jul-2023 14:10:00 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
 [19-Jul-2023 14:10:00 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
 [19-Jul-2023 14:10:00 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 07:28:06 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 07:30:20 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_joyride_re_968t.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 08:11:52 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_joyride_re_968t.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 08:13:35 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 08:24:21 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_join_re_w1lh.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 08:30:36 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_join_re_w1lh.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_welcome_re_h3d9.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 08:36:03 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_welcome_re_h3d9.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 09:27:16 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_welcome_re_h3d9.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 09:29:45 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_welcome_re_h3d9.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_welcoming_re_x0qo.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 09:36:48 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_welcoming_re_x0qo.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 11:56:56 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_fans_re_cri3.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:08:09 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_fans_re_cri3.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_happy_music_g6wc.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:24:00 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_happy_music_g6wc.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:27:44 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:34:09 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_joyride_re_968t.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:36:35 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_joyride_re_968t.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_join_re_w1lh.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:39:44 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_join_re_w1lh.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:42:17 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:47:25 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_meditation_re_gll0.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:52:42 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_fans_re_cri3.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 12:59:13 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_fans_re_cri3.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_join_re_w1lh.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:02:45 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_join_re_w1lh.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:04:39 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_smiley_face_re_9uid.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:09:11 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_fans_re_cri3.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:14:35 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_fans_re_cri3.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:17:26 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_air_support_re_nybl.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:24:06 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:26:33 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_powerful_re_frhr.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_joyride_re_968t.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:32:43 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_joyride_re_968t.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_happy_music_g6wc.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:36:11 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_happy_music_g6wc.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:39:21 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_blooming_re_2kc4.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP Warning:  file_get_contents(/var/www/html/public/images/svg/undraw_join_re_w1lh.svg): Failed to open stream: No such file or directory in /var/www/html/app/domain/dashboard/templates/home.tpl.php on line 39
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP Stack trace:
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   1. {main}() /var/www/html/public/index.php:0
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   2. leantime\core\application->start() /var/www/html/public/index.php:26
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   3. leantime\core\frontcontroller::dispatch($action = *uninitialized*, $httpResponseCode = *uninitialized*) /var/www/html/app/core/class.application.php:127
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   4. leantime\core\frontcontroller::executeAction($completeName = 'dashboard.home', $params = [], 200) /var/www/html/app/core/class.frontcontroller.php:98
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   5. leantime\core\controller->__construct($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.frontcontroller.php:176
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   6. leantime\core\controller->executeActions($method = 'get', $params = ['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:33
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   7. leantime\domain\controllers\home->get(['act' => 'dashboard.home']) /var/www/html/app/core/class.controller.php:61
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   8. leantime\core\template->display($template = 'dashboard.home', $layout = *uninitialized*) /var/www/html/app/domain/dashboard/controllers/class.home.php:136
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP   9. require_once() /var/www/html/app/core/class.template.php:251
+[20-Jul-2023 13:44:18 America/Los_Angeles] PHP  10. file_get_contents($filename = '/var/www/html/public/images/svg/undraw_join_re_w1lh.svg') /var/www/html/app/domain/dashboard/templates/home.tpl.php:39
