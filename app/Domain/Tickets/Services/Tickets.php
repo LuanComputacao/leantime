@@ -2235,17 +2235,22 @@ class Tickets
         if ($ticket->type == 'milestone') {
             $milestoneTickets = $this->getAll(['milestone' => $ticket->id]);
             foreach ($milestoneTickets as $childTicket) {
-                $this->patch($childTicket['id'], ['projectId' => $projectId, 'sprint' => '']);
+                $childMoved = $this->patch($childTicket['id'], [
+                    'projectId' => $projectId,
+                    'sprint' => null,
+                ]);
+
+                if (! $childMoved) {
+                    return false;
+                }
             }
         }
 
-        self::dispatchEvent('ticket_updated');
-
         return $this->patch($ticket->id, [
             'projectId' => $projectId,
-            'sprint' => '',
-            'dependingTicketId' => '',
-            'milestoneid' => '',
+            'sprint' => null,
+            'dependingTicketId' => null,
+            'milestoneid' => null,
         ]);
     }
 
